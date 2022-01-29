@@ -1,6 +1,7 @@
 /* font style */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 /* common design */
 body {
   font-family: "Poppins", sans-serif;
@@ -96,9 +97,13 @@ button.btn-camera {
   text-align: center;
   margin-top: 100px;
 }
-/* .popular-devices > .device {
-  margin-bottom: 70px;
-} */
+.popular-devices {
+  margin-top: 50px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
 .device {
   width: 329px;
   height: 476px;
@@ -107,6 +112,7 @@ button.btn-camera {
   padding-top: 17px;
   padding-bottom: 17px;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .device-photo img {
   width: 300px;
@@ -152,4 +158,98 @@ button.btn-camera {
   color: #787885;
   margin-top: 0px;
   line-height: 2em;
+}
+.tag-more {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: rgba(224, 44, 109, 0.87);
+  text-decoration: none;
+}
+/* ---------------------
+special section degisn 
+----------------------*/
+.special-section h1 {
+  font-size: 40px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-top: 30px;
+}
+.review-conatainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2em;
+  margin-top: 40px;
+}
+.review {
+  display: block;
+}
+.fa-quote-left {
+  font-size: 50px;
+  color: rgba(224, 44, 109, 0.87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text p {
+  font-size: 20x;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.Author-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Author-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Author-profile h2 {
+  font-size: 20px;
+  color: #3a3a3a;
+  margin-top: 0;
+}
+.Author-profile span {
+  font-size: 14px;
+  color: #5e6366;
+  font-weight: 200;
+  margin-top: -1em;
+}
+/* -------------------
+footer section  
+---------------------*/
+footer {
+  background-color: rgba(224, 44, 109, 0.87);
+  height: 240px;
+  margin-top: 100px;
+  margin-left: -4em;
+  margin-right: -3.9em;
+  margin-bottom: -1em;
+}
+.last-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last-part h2 {
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+.last-part p {
+  margin-top: -10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.social-btn {
+  font-size: 32px;
+  margin-top: 10px;
+  padding-left: 20px;
+  color: white;
 }

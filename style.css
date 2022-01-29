@@ -1,5 +1,6 @@
 /* font style */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /* common design */
 body {
   font-family: "Poppins", sans-serif;
@@ -94,4 +95,61 @@ button.btn-camera {
   color: #3a3a3a;
   text-align: center;
   margin-top: 100px;
+}
+/* .popular-devices > .device {
+  margin-bottom: 70px;
+} */
+.device {
+  width: 329px;
+  height: 476px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+}
+.device-photo img {
+  width: 300px;
+  height: 256px;
+  margin-left: 14px;
+  padding-right: 15px;
+  /* display: none; */
+}
+.device-info {
+  margin-left: 14px;
+  padding-right: 15px;
+}
+.device-info > .device-name {
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+  padding-top: 0px;
+}
+.device-info > .price {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: -0.7em;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: -1em;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.rating > .point {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5e6366;
+}
+.device-details > p {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #787885;
+  margin-top: 0px;
+  line-height: 2em;
 }

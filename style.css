@@ -74,7 +74,10 @@ button.btn-camera {
   font-weight: 700;
 }
 /* ecomerce sites style */
-
+.ecommerce-container {
+  display: flex;
+  justify-content: space-around;
+}
 .ecomerce-sites {
   /* display: grid;
   grid-template-columns: repeat(7, 1fr); */
@@ -330,6 +333,10 @@ footer {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+  }
+  .review {
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 688px) and (max-width: 1180px) {
@@ -396,11 +403,15 @@ footer {
   .tag-more {
     justify-content: center;
   }
-  
-  }
+
   .review-conatainer {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .review {
+    margin-top: 20px;
   }
 }

@@ -196,6 +196,7 @@ special section degisn
 .text p {
   font-size: 20x;
   text-align: center;
+
   font-family: "Montserrat", sans-serif;
 }
 .Author-profile {
@@ -227,7 +228,7 @@ footer {
   height: 240px;
   margin-top: 100px;
   margin-left: -4em;
-  margin-right: -3.9em;
+  margin-right: -4em;
   /* margin-bottom: -1em; */
 }
 .last-part {
@@ -254,6 +255,9 @@ footer {
   color: white;
 }
 @media only screen and (max-width: 688px) {
+  body {
+    width: 100%;
+  }
   .menu-bar {
     display: flex;
     flex-direction: column;
@@ -294,8 +298,8 @@ footer {
     height: 90px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 130px;
-    /* justify-content: center; */
+    margin-left: 4%;
+    justify-content: space-evenly;
     /* align-items: center; */
   }
   .sites img {
@@ -307,18 +311,29 @@ footer {
     text-align: center;
   }
   .popular-devices {
-    width: 80%;
+    /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-content: center;
+    margin-left: 30px;
+  }
+  .tag-more {
+    justify-content: center;
   }
   .review-conatainer {
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  /* .text p {
+    padding -right: 30px;
+  } */
   .tag-more {
     margin-right: 20px;
+  }
+  footer {
+    /* width: 100%; */
   }
 }
 @media only screen and (min-width: 688px) and (max-width: 1180px) {

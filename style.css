@@ -99,7 +99,7 @@ button.btn-camera {
 }
 .popular-devices {
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -228,7 +228,7 @@ footer {
   margin-top: 100px;
   margin-left: -4em;
   margin-right: -3.9em;
-  margin-bottom: -1em;
+  /* margin-bottom: -1em; */
 }
 .last-part {
   display: flex;
@@ -252,4 +252,119 @@ footer {
   margin-top: 10px;
   padding-left: 20px;
   color: white;
+}
+@media only screen and (max-width: 688px) {
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comapny-menu a {
+    margin-left: 5px;
+  }
+  .upper-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .camera-details h1 {
+    font-size: 28px;
+  }
+  .camera-details p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  button.btn-camera {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .camera-photo {
+    /* width: 257px;
+    height: 257px; */
+    margin: 50px 0px 0px 0px;
+    padding: 10px;
+    background-size: 220px;
+  }
+  .camera-photo img {
+    width: 202px;
+    height: 190px;
+  }
+  .ecomerce-sites {
+    width: 300px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 130px;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .sites img {
+    width: 60px;
+    height: 23.36px;
+    padding-left: 16px;
+  }
+  .popular-tag {
+    text-align: center;
+  }
+  .popular-devices {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .review-conatainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tag-more {
+    margin-right: 20px;
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 1180px) {
+  .menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .upper-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .camera-details h1 {
+    font-size: 40px;
+  }
+  .camera-details p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  button.btn-camera {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .ecomerce-sites {
+    width: 600px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 80px;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .popular-tag {
+    text-align: center;
+  }
+  .popular-devices {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .device {
+    margin-left: 40px;
+  }
 }

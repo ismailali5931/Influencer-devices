@@ -231,8 +231,8 @@ footer {
   height: 240px;
   margin-top: 100px;
   margin-left: -4em;
-  margin-right: -4em;
-  /* margin-bottom: -1em; */
+  margin-right: -3.9em;
+  margin-bottom: -1em;
 }
 .last-part {
   display: flex;
